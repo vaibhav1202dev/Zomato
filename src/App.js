@@ -4,7 +4,7 @@ import Homepage from "./pages/homePage/homepage";
 import { Routes, Route, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 
-function App() {
+ function App() {
   const { pathname } = useLocation();
 
   useEffect(() => {
