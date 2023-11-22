@@ -1,0 +1,23 @@
+body {
+  overflow-x: hidden;
+}
+
+.nightlife-filter {
+  margin-top: 30px;
+}
+
+.nightlife-banner {
+  height: 16rem;
+  width: 70rem;
+  margin: 20px 80px 20px 80px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+@media (max-width: 760px) {
+  .nightlife-banner {
+    height: 11rem;
+    width: 49rem;
+    margin: 0px 0px 0px -20px;
+  }
+}

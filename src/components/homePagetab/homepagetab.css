@@ -1,0 +1,21 @@
+.option-cards {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-left: 110px;
+  margin-right: 110px;
+  margin-bottom: 1rem;
+  overflow: hidden;
+}
+
+.option-cards :hover {
+  transform: scale(1.02);
+  transition-duration: 0.5s;
+  overflow: hidden;
+}
+
+.tab-text {
+  text-decoration: none;
+}

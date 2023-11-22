@@ -1,0 +1,97 @@
+.collection {
+  margin-left: 9rem;
+  margin-top: 5rem;
+  color: black;
+}
+
+.coll-paragraph p {
+  margin-left: 5rem;
+  font-size: 20px;
+  color: black;
+}
+
+.collection-img {
+  margin-left: 60px;
+  margin-right: 60px;
+  gap: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .collection-img {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    /* align-items: center; */
+    display: block;
+    text-align: center;
+  }
+}
+
+.para {
+  margin-top: -25px;
+}
+
+.bgimg1 {
+  background-image: linear-gradient(rgb(4, 9, 30, 0.2), rgba(4, 9, 30, 0.2)),
+    url(../../../public/imgpage/HomePage/collection1.png);
+  background-size: cover;
+  width: 280px;
+  height: 300px;
+  border-image: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+  background-position: center;
+}
+
+.bgimg2 {
+  background-image: linear-gradient(rgb(4, 9, 30, 0.2), rgba(4, 9, 30, 0.2)),
+    url(../../../public/imgpage/HomePage/collection2.png);
+  background-size: cover;
+  width: 280px;
+  height: 300px;
+  border-image: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+  background-position: center;
+}
+
+.bgimg3 {
+  background-image: linear-gradient(rgb(4, 9, 30, 0.2), rgba(4, 9, 30, 0.2)),
+    url(../../../public/imgpage/HomePage/collection3.png);
+  background-size: cover;
+  width: 280px;
+  height: 300px;
+  border-image: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+  background-position: center;
+}
+
+.bgimg4 {
+  background-image: linear-gradient(rgb(4, 9, 30, 0.2), rgba(4, 9, 30, 0.2)),
+    url(../../../public/imgpage/HomePage/collection4.png);
+  background-size: cover;
+  width: 280px;
+  height: 300px;
+  border-image: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+  background-position: center;
+}
+
+.collection-text {
+  color: white;
+  padding-top: 240px;
+  font-size: 18px;
+  margin-left: 10px;
+}

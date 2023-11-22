@@ -1,0 +1,50 @@
+.option-wrapper {
+  display: flex;
+}
+
+.tab-item {
+  margin-right: 24px;
+  padding: 12px 12px 20px 12px;
+}
+@media (max-width: 760px) {
+  .tab-item {
+    margin-right: -20px;
+
+    .tab-name {
+      font-size: 19px;
+    }
+  }
+}
+
+.tab-name {
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 10px;
+  color: #696969;
+}
+
+.tab-image-container {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: #f8f8f8;
+}
+
+.tab-image {
+  height: 30px;
+  width: 30px;
+}
+
+.active-tab {
+  border-bottom: 2px solid #ef4f5f;
+}
+
+.active-tab .tab-name {
+  color: #ef4f5f;
+}
+
+.divider-line {
+  height: 1px;
+  margin: -1px 0px 15px;
+  background-color: rgb(226, 220, 220);
+}

@@ -1,0 +1,120 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #f2f2f2;
+  margin-top: 30px;
+}
+
+.zomato-img {
+  height: 2.5rem;
+  margin: 40px 0 20px 110px;
+}
+@media (max-width: 760px) {
+  .zomato-img {
+    height: 2rem;
+    margin-left: 80px;
+  }
+}
+@media (max-width: 560px) {
+  .zomato-img {
+    height: 2rem;
+    margin-left: 0px;
+  }
+}
+
+.footer {
+  flex: 1;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.footer-col {
+  margin-left: 50px;
+}
+
+.col li {
+  margin-bottom: 5px;
+  color: gray;
+}
+
+.col h6 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+}
+
+.footer-box {
+  padding: 8px;
+  color: black;
+  border: 1px solid gray;
+  border-radius: 8px;
+  margin: 15px 0px 0px 500px;
+  /* display: grid; */
+  /* justify-content: flex-end; */
+  font-size: 20px;
+  cursor: pointer;
+}
+@media (max-width: 1168px) {
+  .footer-box {
+    margin-left: 105px;
+  }
+}
+@media (max-width: 768px) {
+  .footer-box {
+    margin-left: 15px;
+  }
+}
+
+.flag {
+  height: 18px;
+  width: 27px;
+  margin-right: 5px;
+}
+
+.lang-box {
+  padding: 8px;
+  color: black;
+  border: 1px solid gray;
+  border-radius: 8px;
+  margin: 15px 0px 0px 30px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.globe {
+  height: 28px;
+  width: 28px;
+}
+
+.social-icon {
+  color: black;
+  height: 35px;
+  width: 25px;
+  margin-left: 5px;
+}
+
+.app-store {
+  height: 3rem;
+  width: 9rem;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.play-store {
+  height: 3rem;
+  width: 9rem;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.footer-divider {
+  height: 1px;
+  margin: -1px 0px 15px;
+  background-color: rgb(180, 174, 174);
+}
