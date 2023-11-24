@@ -1,4 +1,4 @@
-import React from "react";
+ import React from "react";
 import "./topbrands.css";
 import Nextarrow from "../../common/carousel/nextArrow";
 import Prevarrow from "../../common/carousel/prevArrow";
