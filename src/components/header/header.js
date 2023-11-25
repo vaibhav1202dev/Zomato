@@ -6,10 +6,11 @@ import InputGroup from "react-bootstrap/InputGroup";
 import Dropdown from "react-bootstrap/Dropdown";
 import { FaMapMarkerAlt, FaSearch } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import Login from "../loginSignup/login/login";
 import Signup from "../loginSignup/signup/signup";
+import Login from "../loginSignup/login/login";
 import { TiThMenu } from "react-icons/ti";
 import Offcanvas from "react-bootstrap/Offcanvas";
+
 function Header() {
   const [show, setShow] = useState(false);
 
