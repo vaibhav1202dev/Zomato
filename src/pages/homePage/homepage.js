@@ -1,4 +1,4 @@
-import React from "react";
+ import React from "react";
 import Navbarmenu from "../../components/navbar/navbar";
 import Homepagetab from "../../components/homePagetab/homepagetab";
 import Collections from "../../components/homeCollections/collections";
