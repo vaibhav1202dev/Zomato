@@ -16,8 +16,9 @@
 .collection-title {
   font-size: 30px;
   color: #1c1c1c;
-  margin-bottom: 32px;
   font-weight: 600;
+  margin-bottom: 32px;
+
 }
 
 .slick-next:before,
