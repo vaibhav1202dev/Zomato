@@ -1,4 +1,3 @@
-import React from "react";
 import "./homepagetab.css";
 import Card from "react-bootstrap/Card";
 import Row from "react-bootstrap/Row";
