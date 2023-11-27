@@ -1,8 +1,8 @@
 .himg {
   background-image: linear-gradient(rgba(4, 9, 30, 0.3), rgba(4, 9, 30, 0.3)),
-    url(./image/nimg.jpg);
-  width: 100%;
+  url(./image/nimg.jpg);
   height: 28rem;
+  width: 100%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
