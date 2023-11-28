@@ -1,8 +1,8 @@
 import React from "react";
 import "./collection.css";
 import { FaCaretRight } from "react-icons/fa";
-import Nextarrow from "../carousel/nextArrow";
 import Prevarrow from "../carousel/prevArrow";
+import Nextarrow from "../carousel/nextArrow";
 import Slider from "react-slick";
 
 // Arrow Settings
