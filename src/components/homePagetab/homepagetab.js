@@ -71,6 +71,6 @@ function Homepagetab() {
       </div>
     </>
   );
-}
+ }
 
 export default Homepagetab;
