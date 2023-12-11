@@ -3,7 +3,7 @@ export const nightlife = [
     type: "restaurant",
     info: {
       resId: 6503888,
-      name: "Kokkita",
+       name: "Kokkita",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/8/6503888/d541c5aa66112af626b0b9196d5a5f8d_featured_v2.jpg",
         urlWithParams:

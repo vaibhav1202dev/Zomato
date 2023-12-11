@@ -1,4 +1,3 @@
-import React from "react";
 import "./collections.css";
 import { FaCaretRight } from "react-icons/fa";
 import Col from "react-bootstrap/Col";

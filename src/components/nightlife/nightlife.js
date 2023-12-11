@@ -1,4 +1,3 @@
-import React from "react";
 import "./nightlife.css";
 import Collection from "../common/collection/collection";
 import Filter from "../common/filters/filter";

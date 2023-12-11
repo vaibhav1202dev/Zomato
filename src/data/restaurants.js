@@ -6,7 +6,7 @@ export const restaurants = [
       name: "KNS",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/chains/8/6506988/82f36c57fd1c39cb8db1482fdca0be4f_o2_featured_v2.jpg",
-      },
+       },
       o2FeaturedImage: {
         url: "https://b.zmtcdn.com/data/pictures/chains/8/6506988/82f36c57fd1c39cb8db1482fdca0be4f_o2_featured_v2.jpg",
       },

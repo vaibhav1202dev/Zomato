@@ -9,7 +9,7 @@ import Footer from "../../components/footer/footer";
 const Secondpage = () => {
   const [activeTab, setActiveTab] = useState("Delivery");
   return (
-    <div>
+   <div>
       <Header />
       <Taboption activeTab={activeTab} setActiveTab={setActiveTab} />
       {getCorrectScreen(activeTab)}

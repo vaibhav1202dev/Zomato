@@ -6,7 +6,7 @@ import { FaSlidersH } from "react-icons/fa";
 import Exploresection from "../common/exploreSection/exploresection";
 import { diningOut } from "../../data/dinigoutdata";
 
-// Diningout Card Collection
+ //  Diningout Card Collection
 const collectionList = [
   {
     id: 1,

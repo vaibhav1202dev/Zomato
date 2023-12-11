@@ -1,4 +1,4 @@
-export const diningOut = [
+ export const diningOut = [
   {
     type: "restaurant",
     info: {
