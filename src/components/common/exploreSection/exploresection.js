@@ -2,7 +2,7 @@ import React from "react";
 import "./exploresection.css";
 import Explorecard from "./exploreCard/explorecard";
 
-// Explore Section
+ // Explore Section
 const Exploresection = ({ list, collectionName }) => {
   return (
     <div className="max-width explore-section">
