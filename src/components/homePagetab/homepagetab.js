@@ -4,7 +4,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { Link } from "react-router-dom";
 
-// Home Page Option Cards
+ // Home Page Option Cards
 function Homepagetab() {
   return (
     <>
