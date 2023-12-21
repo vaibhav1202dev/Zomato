@@ -1,4 +1,4 @@
-  <div align='center'>
+ <div align='center'>
 <img src='https://github.com/vaibhav1202dev/Zomato/assets/142654068/2ba7a4bd-fbe1-4804-acab-ae2e2d735982.png'  height='80px' width='80px'/>
 </div>
                 
